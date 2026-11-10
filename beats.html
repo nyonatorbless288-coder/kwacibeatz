@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Beats | KwaCi Beatz</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+
+        <h1 class="logo">KWACI BEATZ.</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="beats.html" class="active">Beats</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a href="#beat-catalogue" class="store-btn">
+            Explore Store
+        </a>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="beats-hero">
+
+            <p class="eyebrow">PREMIUM INSTRUMENTALS</p>
+
+            <h2>
+                Browse Our <span>Beats</span>
+            </h2>
+
+            <p>
+                Find the perfect beat for your next hit.
+                Quality sounds crafted by KwaCi Beatz.
+            </p>
+
+        </section>
+
+
+        <!-- BEAT CATALOGUE -->
+        <section class="catalogue" id="beat-catalogue">
+
+            <div class="catalogue-heading">
+
+                <div>
+                    <h2>Explore Instrumentals</h2>
+                    <p>Discover your next sound.</p>
+                </div>
+
+                <p>Producer: <strong>KwaCi Beatz</strong></p>
+
+            </div>
+
+
+            <!-- SEARCH AND FILTER -->
+            <div class="beat-filters">
+
+                <input
+                    type="search"
+                    placeholder="Search beats..."
+                    aria-label="Search beats"
+                >
+
+                <div class="genre-filters">
+
+                    <button class="selected">All</button>
+
+                    <button>Afrobeats</button>
+
+                    <button>Afro Fusion</button>
+
+                    <button>Hip Hop</button>
+
+                    <button>R&B</button>
+
+                    <button>Trap</button>
+
+                    <button>Others</button>
+
+                </div>
+
+            </div>
+
+
+            <!-- BEAT CARDS -->
+            <div class="beat-grid">
+
+
+                <!-- BEAT 1 -->
+                <article class="beat-card">
+
+                    <div class="beat-cover">
+
+                        <img
+                            src="images/beat1.jpg"
+                            alt="Afro Vibes beat artwork"
+                        >
+
+                        <span class="play-icon">▶️</span>
+
+                    </div>
+
+                    <div class="beat-info">
+
+                        <h3>Afro Vibes</h3>
+
+                        <p>Afrobeats · 102 BPM</p>
+
+                        <p class="beat-price">GH₵ 300</p>
+
+                        <audio controls preload="none">
+                            <source
+                                src="audio/beat1.mp3"
+                                type="audio/mpeg"
+                            >
+                        </audio>
+
+                        <a href="beat-details.html">
+                            View Beat
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BEAT 2 -->
+                <article class="beat-card">
+
+                    <div class="beat-cover">
+
+                        <img
+                            src="images/beat2.jpg"
+                            alt="Street Energy beat artwork"
+                        >
+
+                        <span class="play-icon">▶️</span>
+
+                    </div>
+
+                    <div class="beat-info">
+
+                        <h3>Street Energy</h3>
+
+                        <p>Afro Fusion · 98 BPM</p>
+
+                        <p class="beat-price">GH₵ 300</p>
+
+                        <audio controls preload="none">
+                            <source
+                                src="audio/beat2.mp3"
+                                type="audio/mpeg"
+                            >
+                        </audio>
+
+                        <a href="beat-details.html">
+                            View Beat
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BEAT 3 -->
+                <article class="beat-card">
+
+                    <div class="beat-cover">
+
+                        <img
+                            src="images/beat3.jpg"
+                            alt="Love and Melody beat artwork"
+                        >
+
+                        <span class="play-icon">▶️</span>
+
+                    </div>
+
+                    <div class="beat-info">
+
+                        <h3>Love & Melody</h3>
+
+                        <p>R&B · 95 BPM</p>
+
+                        <p class="beat-price">GH₵ 300</p>
+
+                        <audio controls preload="none">
+                            <source
+                                src="audio/beat3.mp3"
+                                type="audio/mpeg"
+                            >
+                        </audio>
+
+                        <a href="beat-details.html">
+                            View Beat
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- BEAT 4 -->
+                <article class="beat-card">
+
+                    <div class="beat-cover">
+
+                        <img
+                            src="images/beat4.jpg"
+                            alt="King Vibes beat artwork"
+                        >
+
+                        <span class="play-icon">▶️</span>
+
+                    </div>
+
+                    <div class="beat-info">
+
+                        <h3>King Vibes</h3>
+
+                        <p>Hip Hop · 100 BPM</p>
+
+                        <p class="beat-price">GH₵ 300</p>
+
+                        <audio controls preload="none">
+                            <source
+                                src="audio/beat4.mp3"
+                                type="audio/mpeg"
+                            >
+                        </audio>
+
+                        <a href="beat-details.html">
+                            View Beat
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- PAGINATION -->
+            <div class="pagination">
+
+                <a href="#" class="current">1</a>
+
+                <a href="#">2</a>
+
+                <a href="#">3</a>
+
+                <a href="#">Next →</a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <h2>KWACI BEATZ.</h2>
+
+                <p>Creating sounds. Building legacies.</p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="beats.html">Beats</a>
+
+                <a href="about.html">About</a>
+
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h3>Follow Me</h3>
+
+                <a href="#">YouTube</a>
+
+                <a href="#">TikTok</a>
+
+                <a href="#">Instagram</a>
+
+            </div>
+
+
+            <div class="newsletter">
+
+                <h3>Newsletter</h3>
+
+                <p>Get updates on new beats.</p>
+
+                <form>
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                    <button type="submit">
+                        Subscribe
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                ©️ 2026 KwaCi Beatz.
+                All Rights Reserved.
+            </p>
+
+            <p>
+                Beats · Recording · Mixing & Mastering
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
