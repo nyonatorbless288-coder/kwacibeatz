@@ -463,7 +463,6 @@ footer nav a:hover {
 }
 
 
-/* CATALOGUE */
 
 .catalogue {
     padding: 55px 5%;
@@ -491,7 +490,6 @@ footer nav a:hover {
 }
 
 
-/* SEARCH AND FILTER */
 
 .beat-filters {
     margin-bottom: 30px;
@@ -593,7 +591,6 @@ footer nav a:hover {
 }
 
 
-/* BEAT DETAILS */
 
 .beat-info {
     padding: 15px;
@@ -665,7 +662,6 @@ footer nav a:hover {
 }
 
 
-/* FOOTER */
 
 .site-footer {
     background: #111;
@@ -750,7 +746,6 @@ footer nav a:hover {
 }
 
 
-/* RESPONSIVE DESIGN */
 
 @media (max-width: 1000px) {
 
